@@ -1,0 +1,195 @@
+.container {
+    width: 960px;
+    margin: auto;
+}
+.menu {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item {
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+}
+.menu #city {
+    background-color: gray;
+    color: white;
+    padding: 5px 100px;
+}
+.block2
+{
+    margin-bottom: 30px;
+}
+.block2-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block2-header h3, .block2-header h2 {
+    margin: 0;
+}
+.block2-header h3 {
+    color: orange;
+}
+.block2-header h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.block2-content {
+    display: flex;
+}
+.hours {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.list {
+    width: 35%;
+    margin-top: 20px;
+}
+.list-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.list-item-piont {
+    transform: rotate(-90deg);
+    margin-right: 10px;
+}
+.list-item-content {
+    text-transform: uppercase;
+}
+.-active-item {
+    color: slateblue;
+}
+
+.list ul li {
+    list-style-type: none;
+}
+.list ul li::before {
+    content: "©";
+    margin-right: 10px;
+}
+
+.button {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+button {
+    background-color: yellow;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    background-color: blue;
+}
+
+.card {
+    width: 25%;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.card-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-content-active li, .card-content-disactive li {
+    list-style-type: none;
+}
+.card-content-active li::before {
+    content: "✓";
+    margin-right: 5px;
+}
+
+.card-content-disactive li::before {
+    content: "❌";
+    margin-right: 5px;
+}
+
+.card-price {
+    text-align: center;
+}
+
+.card-price p, .card-button p {
+    color: blue;
+}
+.card-price p:first-child{
+    text-decoration: line-through
+}
+
+.card-button {
+    text-align: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: blue;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.call-to-action-text {
+    width: 50%;
+}
+.call-to-action-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-text p:first-child {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.call-to-action-text p:nth-child(2) {
+    color: black;
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+.call-to-action-text p:nth-child(3) {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+.qa-content {
+    width: 60%;
+}
+.qa-content p:first-child {
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.qa-content p:nth-child(2) {
+    font-weight: bold;
+}
+.qa-img {
+    width: 40%;
+}
+
+{-webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    box-sizing: border-box;}
+.buttons {margin: 10%;    text-align: center;}
+.btn-hover {font-size: 16px;    font-weight: 600;    color: #fff;    cursor: pointer;    padding: 10px 40px;    text-align:center;    border: none;    background-size: 300% 100%; border-radius: 50px;    moz-transition: all .4s ease-in-out;    -o-transition: all .4s ease-in-out;    -webkit-transition: all .4s ease-in-out;    transition: all .4s ease-in-out;}
+.btn-hover:hover {background-position: 100% 0;    moz-transition: all .4s ease-in-out;    -o-transition: all .4s ease-in-out;    -webkit-transition: all .4s ease-in-out;    transition: all .4s ease-in-out;}
+.btn-hover:focus {outline: none;}
+.btn-hover.color-9 {background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);}
+.btn-hover.color-2 {background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);}
